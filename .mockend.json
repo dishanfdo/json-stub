@@ -27,5 +27,10 @@
     "isPublic": {
       "boolean": {}
     }
+  },
+  "Ambassadorr": {
+    "firstName": {
+      "string": {}
+    }
   }
 }
