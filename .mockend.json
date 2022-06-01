@@ -31,6 +31,27 @@
   "Ambassador": {
     "firstName": {
       "string": {}
+    },
+    "lastName": {
+        "string": {}
+    },
+    "profileImage": {
+        "string": {}
+    },
+    "instagramUserName": {
+        "string": {}
+    },
+    "tiktokUserName": {
+        "string": {}
+    },
+    "university": {
+        "string": {}
+    },
+    "graduationDate": {
+        "dateTime": {
+            "min": "2021-01-01T00:00:00Z",
+            "max": "2022-12-31T23:59:59Z"
+        }
     }
   }
 }
