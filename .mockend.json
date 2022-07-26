@@ -33,25 +33,39 @@
       "string": {}
     },
     "lastName": {
-        "string": {}
+      "string": {}
     },
-    "profileImage": {
-        "string": {}
+    "profilePhoto": {
+      "belongsTo": "ProfilePhoto"
     },
     "instagramUserName": {
-        "string": {}
+      "string": {}
     },
     "tiktokUserName": {
-        "string": {}
+      "string": {}
     },
-    "university": {
-        "string": {}
+    "schoolName": {
+      "string": {}
     },
     "graduationDate": {
-        "dateTime": {
-            "min": "2021-01-01T00:00:00Z",
-            "max": "2022-12-31T23:59:59Z"
-        }
+      "dateTime": {
+        "min": "2021-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
+    }
+  },
+  "ProfilePhoto": {
+    "key": {
+      "string": {}
+    },
+    "thumbUrl": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    },
+    "fullUrl": {
+      "string": {}
+    },
+    "mimeType": {
+      "string": {}
     }
   }
 }
