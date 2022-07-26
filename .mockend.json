@@ -35,9 +35,6 @@
     "lastName": {
       "string": {}
     },
-    "profilePhoto": {
-      "belongsTo": "ProfilePhoto"
-    },
     "instagramUserName": {
       "string": {}
     },
