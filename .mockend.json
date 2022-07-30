@@ -35,10 +35,10 @@
     "lastName": {
       "string": {}
     },
-    "instagramUserName": {
+    "instagramUsername": {
       "string": {}
     },
-    "tiktokUserName": {
+    "tiktokUsername": {
       "string": {}
     },
     "schoolName": {
